@@ -54,7 +54,7 @@ this should print out some information and the -h option
 finally, check if the command 'spleeter' works
 
 ```
-spleeter separate -i <path to mp3 file> -p spleeter:4stems -o <output path>
+spleeter separate <path to mp3 file> -p spleeter:4stems -o <output path>
 ```
 you are now done with the Setup Stage
 ---

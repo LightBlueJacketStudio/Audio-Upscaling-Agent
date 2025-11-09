@@ -7,7 +7,7 @@ venv/
 #auto-generated files
 __pycache__/
 *.py[cod]
-
+pretrained_models/
 # Ignore environment/config files
 .env
 *.log
