@@ -1,0 +1,18 @@
+# Ignore your virtual environment
+audioAgent/
+.env/
+.venv/
+venv/
+
+#auto-generated files
+__pycache__/
+*.py[cod]
+
+# Ignore environment/config files
+.env
+*.log
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+.DS_Store
