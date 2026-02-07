@@ -24,7 +24,7 @@ python -m venv audioAgent
 
 activate the venv
 ```
-.\audioAgent\Scripts\activate
+.\audioAgent\Scripts\activate.ps1
 ```
 you command line should start with (audioAgent)
 
@@ -46,11 +46,12 @@ add the path to "bin" folder to path
 
 check your ffmpeg version
 ```
-ffmpeg
+ffmpeg -version
 ```
 
 this should print out some information and the -h option
-
+, <b>ffmpeg should always install on the os level, not just virtual environment</b>
+<br>
 finally, check if the command 'spleeter' works
 
 ```
@@ -58,3 +59,13 @@ spleeter separate <path to mp3 file> -p spleeter:4stems -o <output path>
 ```
 you are now done with the Setup Stage
 ---
+
+## If anything fails in your virtual environment
+1. delete your virtual environment folder
+2. run the following command one by one, this recreate the virtual environment
+<br>
+py -3.8 -m venv audioAgent
+.\audioAgent\Scripts\Activate.ps1
+python -m ensurepip --upgrade
+python -m pip install --upgrade pip setuptools wheel
+pip install -r .\requirements.txt

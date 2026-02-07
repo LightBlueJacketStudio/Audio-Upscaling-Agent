@@ -1,5 +1,6 @@
 # Ignore your virtual environment
 audioAgent/
+old_audioAgent/
 .env/
 .venv/
 venv/
