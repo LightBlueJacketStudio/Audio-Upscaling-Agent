@@ -22,7 +22,7 @@ You don’t have to do loudness normalization — sample rate + channels are the
 ↓
 [1] Source separation (stems)
 Spleeter (or Demucs for higher quality)
-↓
+↓ done Feb 6
 [2] Upscale / enhance (per stem)
 Music SR / restoration (AudioSR, diffusion SR, denoise/de-reverb as needed)
 ↓

@@ -18,3 +18,10 @@ Overall, I think the initial separation is OK.
 
 
 2/6/2026
+done with standardizing before input to spleeter
+use "pip freeze requirement.txt"
+to do requirement document
+
+2/19/2026
+done with visualization. comparing the preprocessed audio and post-processed audio
+we observed that the standardization does make some visible change to the audio, some peaks that was previously capped was kinda restored.
